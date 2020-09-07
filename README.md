@@ -6,4 +6,4 @@ El juego de la vida es un autómata celular diseñado por el matemático britán
 Este codigo ha sido copiado de https://github.com/alexFocus92/juego_de_la_vida.
 
 This si my first github project. Has been created to learn the github workflow. 
-The game of life is an cellular automatra designed by the british mathematician John Horton Conway in 1970.
+The game of life is an cellular automata designed by the british mathematician John Horton Conway in 1970.
