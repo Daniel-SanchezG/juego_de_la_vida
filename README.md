@@ -1,4 +1,4 @@
-# juego de la vida #
+# El Juego de la Vida #
 
 Este es un pequeño ejercicio para aprender el flujo de trabajo con github.
 El juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970. 
