@@ -1,5 +1,3 @@
-# Este código ha sido copiado de https://github.com/alexFocus92/juego_de_la_vida
-# Es solo un pequeño ejercicio para aprender el flujo de trabajo de GitHub.
 
 import pygame
 import numpy as np
@@ -18,14 +16,14 @@ BG_COLOR = (10,10,10) # Define background color
 LIVE_COLOR = (255,255,255)
 DEAD_COLOR = (128,128,128)
 # Celdas vivas = 1; Celdas muertas = 0
-status = np.zeros((nX,nY)) # Intialize status of cells
+status = np.zeros((nX,nY)) # Inicializar el status de las celulas
 
 pauseRun = False
 
 running = True
 while running:
 
-    newStatus = np.copy(status) # Copy status
+    newStatus = np.copy(status) # Copiar status
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -41,7 +39,7 @@ while running:
             #newStatus[x,y] = np.abs(newStatus[x,y]-1)
             newStatus[x,y] = not mouseClick[2]
 
-    screen.fill(BG_COLOR) # Clean background
+    screen.fill(BG_COLOR) # limpiar background
 
     for x in range(0,nX):
         for y in range(0,nY):
